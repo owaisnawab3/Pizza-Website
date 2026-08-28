@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+@theme{
+    /* --font-display: "Poppins", "sans-serif"; */
+    --font-display: "Roboto Condensed", "sans-serif";
+     --tracking-4: -0.19em;
+}
