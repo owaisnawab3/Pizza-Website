@@ -6,7 +6,9 @@ import Easy_To_Order from "../images/order.png";
 function About_us() {
   return (
     <main>
-      <div id="About_Section" className="px-6 mx-auto lg:px-20 mx-auto py-14">
+      {/* About_Section */}
+      <div id="about" className="page-section">
+      <div id="" className="px-6 mx-auto lg:px-20 mx-auto py-14">
         <div className="text-center pb-12">
           <h5 className="text-transform: uppercase text-amber-400 font-medium -tracking-4">
             our services
@@ -56,6 +58,7 @@ function About_us() {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </main>
   );

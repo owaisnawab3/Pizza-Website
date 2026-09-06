@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Header/>
+      <main className='pt-20'>
       <Home/>
       <About_us/>
       <Menu/>
@@ -20,6 +21,7 @@ function App() {
       <Application/>
       <Subscribe/>
       <Footer/>
+      </main>
     </>
   )
 }

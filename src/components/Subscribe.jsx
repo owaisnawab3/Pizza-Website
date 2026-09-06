@@ -9,7 +9,8 @@ function Subscribe() {
 
   return (
     <main>
-      <div id="About_Section" className="px-6 mx-auto lg:px-20 mx-auto my-30">
+      <div id="subscribe" className="page-section">
+      <div id="Subscribe_Section" className="px-6 mx-auto lg:px-20 mx-auto my-30">
         <div className="text-center pb-12">
           <h5 className="text-transform: uppercase text-amber-400 font-medium -tracking-4">
             our subscribe
@@ -64,6 +65,7 @@ function Subscribe() {
 
         </div>
         </form>
+      </div>
       </div>
     </main>
   );

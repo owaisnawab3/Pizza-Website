@@ -7,7 +7,9 @@ import {faXTwitter, faInstagram, faFacebookF, faGooglePlusG} from "@fortawesome/
 
 function Footer() {
   return (
-    <div id='Footer-Section' className='mt-20 bg-amber-100'>
+    // Footer-Section
+      <div id='contact' className='page-section'>
+    <div className='mt-20 bg-amber-100'>
       <footer>
         <div id='Footer-Container' className='p-6 pt-10 md:pt-16 gap-6 grid grid-cols-1 md:text-center lg:grid-cols-4 lg:flex-row lg:py-20 lg:px-20 mx-auto'>
           <div id='footer-logo' className='md:mx-auto lg:flex flex-col lg:items-center'>
@@ -49,6 +51,7 @@ function Footer() {
           </div>
           <p className='text-normal text-gray-600 text-transform:m capitalize text-center pb-5'>created by Owais nawab</p>
       </footer>
+    </div>
     </div>
   )
 }

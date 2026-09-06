@@ -6,6 +6,7 @@ function Application() {
   return (
     <>
     <main>
+      <div id='application' className='page-section'>
       <div id='Application-Section' className='bg-[#FFF1CC] mx-6 lg:mx-20 min-h-screen rounded-4xl'>
         <div id='Application-Container' className='flex flex-col mx-auto px-8 lg:px-20 md:flex-row justify-center items-center gap-20 h-1/2'>
           <div id='Application-Left'>
@@ -22,6 +23,7 @@ function Application() {
           <button className=' text-transform: capitaliz bg-amber-400 hover:bg-amber-400/75 text-white px-5 py-2 rounded-xl cursor-pointer mt-6'>Get the App</button>
           </div>
         </div>
+      </div>
       </div>
     </main>
     </>

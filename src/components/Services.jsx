@@ -54,7 +54,8 @@ function Services() {
   return (
    <>
    <main>
-    <div id="Services-Section" className=''>
+    {/* Services-Section */}
+    <div id="service" className='page-section'>
     <div id='Services-Container' className='flex flex-col px-6 mx-auto lg:h-screen lg:flex-row lg:justify-center lg:items-center lg:px-20 lg:gap-10 md:flex-row md:justify-center md:items-center md:px-10 md:gap-10 pb-20 mx-auto'>
     <div id='Services-Left' className=''>
      <img className='w-80 h-80 mx-auto pb-12 rounded-4xl lg:w-120 lg:h-120 md:w-120 md:h-120' src={PizzaBoy} alt="" />

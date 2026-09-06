@@ -9,3 +9,7 @@
     --font-display: "Roboto Condensed", "sans-serif";
      --tracking-4: -0.19em;
 }
+
+html{
+    scroll-behavior: smooth;
+}
