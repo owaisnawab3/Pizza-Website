@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faStar as solidStar } from "@fortawesome/free-solid-svg-icons";
 import { faStar as regularStar } from "@fortawesome/free-regular-svg-icons";
-import User1 from '../images/User1.JPG'
+import User1 from '../images/User1.jpg'
 import User2 from '../images/User2.jpg'
 import User3 from '../images/User3.jpg'
 import User4 from '../images/User4.jpg'
