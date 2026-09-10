@@ -15,7 +15,7 @@ function Subscribe() {
             <h5 className="text-transform: uppercase text-amber-400 font-medium -tracking-4">
               our subscribe
             </h5>
-            <h1 className="text-transform: capitalize text-5xl font-bold pb-7">
+            <h1 className="text-transform: capitalize text-4xl sm:text-5xl font-bold pb-7">
               subscribe to our newsletter
             </h1>
             <p className="text-gray-600">
@@ -31,16 +31,16 @@ function Subscribe() {
               setShowPopup(true)
             }}
           >
-            <div className="text-center flex items-center justify-center gap-x-4 rounded-xl bg-white p-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10 w-fit mx-auto">
+            <div className="w-full max-w-md mx-auto flex flex-col sm:flex-row items-center gap-3 justify-center gap-x-4 rounded-xl bg-white p-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
               <input
-                className="outline-none"
+                className="outline-none w-full min-w-0"
                 type="email"
                 placeholder="Enter your email address"
                 value={email}
                 required
                 onChange={(e) => setEmail(e.target.value)}
               />
-              <button className="text-transform: capitalize bg-amber-400 text-white px-5 py-2 rounded-xl cursor-pointer">
+              <button className="text-transform: capitalize bg-amber-400 text-white px-5 py-2 rounded-xl cursor-pointer w-full sm:w-auto">
                 subscribe
               </button>
 
