@@ -31,7 +31,7 @@ function Subscribe() {
               setShowPopup(true)
             }}
           >
-            <div className="w-full max-w-md mx-auto flex flex-col sm:flex-row items-center gap-3 justify-center gap-x-4 rounded-xl bg-white p-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+            <div className="w-full max-w-md mx-auto flex flex-col sm:flex-row items-center gap-3 justify-center gap-x-4 rounded-xl bg-white p-4 shadow-lg outline outline-black/5">
               <input
                 className="outline-none w-full min-w-0"
                 type="email"
